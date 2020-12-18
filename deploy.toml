@@ -4,7 +4,7 @@ debug=true
 
 [dotnet]
 version="3.1"
-startup_project_path="TCBase.Component.Test/Flight.Configuration.Test/"
+startup_project_path="WebAppDemo/"
 
 [nuget]
 disable_microsoft_feed=true
