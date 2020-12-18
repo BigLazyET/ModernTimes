@@ -1,0 +1,36 @@
+﻿version=2
+
+debug=true
+
+[dotnet]
+version="3.1"
+startup_project_path="TCBase.Component.Test/Flight.Configuration.Test/"
+
+[nuget]
+disable_microsoft_feed=true
+
+[[nuget.package]]
+name="AutoMapper"
+version="9.0.0"
+[[nuget.package]]
+name="Serilog"
+version="2.8.0"
+
+[apm]
+disable=true
+version="2.1.2"
+
+[[artifacts]]
+source="src/assets/usr/share/fonts/msyh.ttc"
+destination="/usr/share/fonts/msyh.ttc"
+[[artifacts]]
+source="src/assets/usr/share/fonts/msyh.ttc"
+destination="/usr/share/fonts/"
+
+
+[[scripts]]
+cmd="pwd"
+[[scripts]]
+cmd="ls -l"
+[[scripts]]
+cmd="echo 'hello world, i am script'"
